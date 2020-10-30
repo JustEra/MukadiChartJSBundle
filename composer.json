@@ -1,5 +1,5 @@
 {
-    "name": "mukadi/chartjs-bundle",
+    "name": "justera/chartjs-bundle",
     "description": "build awesome charts directly from your ORM Entities",
     "type": "symfony-bundle",
     "license": "MIT",
