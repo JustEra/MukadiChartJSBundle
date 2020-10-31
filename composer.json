@@ -18,7 +18,7 @@
         "symfony/framework-bundle": "^2.7.22|~3.0|~4.0|~5.0",
         "twig/twig": "^1.34||^2.0||^3.0",
         "doctrine/orm": "^2.7",
-        "mukadi/chartjs-builder": "^1.0",
+        "justera/chartjs-builder": "dev-master",
         "doctrine/doctrine-bundle":"^2.1"
     },
     "autoload" : {
@@ -26,6 +26,12 @@
             "Mukadi\\ChartJSBundle\\" : ""
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:JustEra/mukadi-chartjs-builder.git"
+        }
+    ],
     "suggest": {
         "symfony/asset": "For a best management of your assests, URL generation and versionning"
     }
